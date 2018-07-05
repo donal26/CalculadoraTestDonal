@@ -3,11 +3,11 @@ use PHPUnit\Framework\TestCase;
 
 
 final class CalculateTest extends TestCase{
-
+s
 	public function testAdd():void{
 		include_once "src/calculate.php";
 		$calculate=new Calculate();
-		$this->assertEquals(  $calculate->add(8,3), 11);
+		$this->assertEquals(  $calculate->add(8,8), 10);
 	}
 
 	public function testDivide():void{
